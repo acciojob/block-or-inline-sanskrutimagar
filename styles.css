@@ -1,2 +1,52 @@
 
-/* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+
+div {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+button, 
+span, 
+input, 
+cite, 
+code, 
+sup, 
+sub {
+  margin-right: 10px;
+  background-color: #e3f2fd;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+p, 
+h1, 
+div[data-ns-test="block-inline-div"] {
+  background-color: #ffe0b2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 5px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+input {
+  border: 1px solid #aaa;
+}
+
+div:last-child {
+  margin-bottom: 30px;
+}
